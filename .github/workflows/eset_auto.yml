@@ -32,7 +32,7 @@ on:
         - --vpn-codes
         default: --key
   schedule:
-    - cron: "0 */3 * * *"
+    - cron: "0 */2 * * *"
 
 jobs:
   GenerateKey:
