@@ -42,7 +42,7 @@ jobs:
         run: |
           ACCOUNT=0
           KEY=2
-          MAIL=guerrillamail
+          MAIL=developermail
           KEY_TYPE=--small-business-key
 
           git clone https://github.com/pogrommistru/EKey.git
